@@ -14,7 +14,9 @@ window.addEventListener('resize', () => {
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(() => {
     document.body.classList.remove('resizing');
-  }, 250);
+  }, 100);
+  
+
 });
 
 
